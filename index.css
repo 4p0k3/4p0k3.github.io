@@ -2,7 +2,14 @@
 font-family: Bradley Hand, cursive;
 margin: 0;
 padding: 0;
-
+}
+body
+{
+background: black;
+}
+h1
+{
+font-size:64px;
 }
 header
 {
@@ -13,6 +20,7 @@ background: white;
 .menu-item
 {
 list-style: none;
+font-size: 30px;
 }
 .menu-link
 {
@@ -21,7 +29,7 @@ text-decoration: none;
 }
 .logo-img
 {
-height: 100px;
+height: 150px;
 }
 .container
 {
@@ -52,4 +60,19 @@ align-items:center;
 .menu-item
 {
 margin-left: 150px;
+}
+.gif
+{
+display:flex;
+justify-content: center;
+}
+.main
+{
+color: white;
+font-size: 36px;
+}
+.main-text
+{
+display:flex;
+justify-content: center;
 }
