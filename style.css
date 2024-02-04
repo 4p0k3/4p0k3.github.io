@@ -12,7 +12,6 @@ body{
 }
 
 .header{
-	padding: 5px;
 	display:inline-block;
 	width: 100%;
 	background-image: url('header.png');
@@ -31,9 +30,9 @@ body{
 		margin-right:50px;
 	}
 
-	#id{
-		height: 20px;
-		width: auto;
+	#info{
+		height: 30px;
+		width: 30px;
 	}
 
 }
@@ -44,4 +43,7 @@ body{
 	height: 10%;
 	margin: 5px;
 
+}
+#info{
+	margin: 5px;
 }
