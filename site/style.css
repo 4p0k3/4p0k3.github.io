@@ -1,0 +1,42 @@
+html{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Jost', sans-serif;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.header{
+	padding: 5px;
+	display:inline-block;
+	width: 100%;
+	background-image: url('header.png');
+	background-size: 100%,100%;
+
+}
+.accordion{
+	margin-top:70px;
+	margin-left:250px;
+	margin-right:250px;
+}
+
+@media (max-width: 1000px){
+	.accordion{
+		margin-left:50px;
+		margin-right:50px;
+	}
+
+}
+
+#name{	 
+
+	width: 100%;
+	height: 10%;
+	margin: 5px;
+
+}
