@@ -1,23 +1,27 @@
 html{
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	height: 100%;
 	width: 100%;
-	font-family: 'Jost', sans-serif;
 }
 
 body{
 	height: 100%;
 	width: 100%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Jost', sans-serif !important;
 }
 
 .header{
-	display:inline-block;
-	width: 100%;
+	display:flex;
+	align-items: center;
 	background-image: url('header.png');
 	background-size: 100%,100%;
+	height: 100px;
+	color: white;
+
+
 
 }
 .accordion{
@@ -32,7 +36,7 @@ body{
 }
 
 @media (max-width: 1000px){
-	.accordion{
+	.accordion, .dropdown{
 		margin-left:50px;
 		margin-right:50px;
 	}
@@ -45,12 +49,12 @@ body{
 }
 
 #name{	 
-
 	width: 100%;
-	height: 10%;
-	margin: 5px;
+
+
 
 }
 #info{
-	
+
+	margin-right: 10px;
 }
