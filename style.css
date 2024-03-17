@@ -21,18 +21,57 @@ body{
 	height: 100px;
 	color: white;
 
-
-
 }
 .accordion{
 	margin-top:40px;
-	margin-left:250px;
-	margin-right:250px;
+	margin-left:350px;
+	margin-right:350px;
 }
 
 .dropdown{
 	margin-top: 40px;
 	margin-left: 250px;
+}
+
+.accordion-body{
+
+	font-size: 18px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 @media (max-width: 1000px){
@@ -57,4 +96,9 @@ body{
 #info{
 
 	margin-right: 10px;
+}
+
+#lang{
+	margin-right:30px;
+
 }
