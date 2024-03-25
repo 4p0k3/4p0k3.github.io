@@ -26,6 +26,10 @@ body{
 	margin-top:40px;
 	margin-left:350px;
 	margin-right:350px;
+	--bs-accordion-active-bg: #728fff !important;
+	--bs-accordion-active-color: #ffffff !important;
+	--bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(114,142,255, 0.25) !important;
+	--bs-accordion-btn-active-icon: url("https://cdn.discordapp.com/attachments/623844667590443028/1221834634250158220/arrow.svg?ex=6614052d&is=6601902d&hm=f706a347b06f195988ca31ce9e0f62b8d866225e03f8ad8c0c369526592f8f78&D:\Project\4p0k3.github.io\arrow.svg") !important;
 }
 
 .dropdown{
@@ -39,41 +43,40 @@ body{
 }
 
 .tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 150%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent black transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -60px;
+  }
+  
+  .tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+  }
 @media (max-width: 1000px){
 	.accordion, .dropdown{
 		margin-left:50px;
