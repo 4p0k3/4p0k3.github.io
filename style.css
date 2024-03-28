@@ -19,8 +19,6 @@ a{
 	color: black !important;
 
 }
-
-
 .header{
 	display:flex;
 	align-items: center;
@@ -32,24 +30,20 @@ a{
 }
 .accordion{
 	margin-top:40px;
-	margin-left:350px;
-	margin-right:350px;
+	margin-left:280px;
+	margin-right:280px;
 	--bs-accordion-active-bg: #728fff !important;
 	--bs-accordion-active-color: #ffffff !important;
 	--bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(114,142,255, 0.25) !important;
 	--bs-accordion-btn-active-icon: url("https://cdn.discordapp.com/attachments/623844667590443028/1221834634250158220/arrow.svg?ex=6614052d&is=6601902d&hm=f706a347b06f195988ca31ce9e0f62b8d866225e03f8ad8c0c369526592f8f78&D:\Project\4p0k3.github.io\arrow.svg") !important;
 }
 
-.dropdown{
-	margin-top: 40px;
-	margin-left: 250px;
-}
 
 .accordion-body{
-
 	font-size: 18px;
 }
-@media (max-width: 1000px){
+
+@media (max-width: 1100px){
 	.accordion, .dropdown{
 		margin-left:50px;
 		margin-right:50px;
@@ -59,14 +53,17 @@ a{
 		height: 30px;
 		width: 30px;
 	}
-
+	#lang{
+		max-width: 100px;
+		max-height: 100px;
+	}
+	.accordion-body{
+		font-size: 15px;
+	}
 }
 
 #name{	 
 	width: 100%;
-
-
-
 }
 #info{
 
